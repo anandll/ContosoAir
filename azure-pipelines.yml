@@ -11,7 +11,7 @@ steps:
       Contents: "*.json"
       TargetFolder: $(build.artifactstagingdirectory)/Templates
   - task: Npm@1
-    displayName: npm custom
+    displayName: npm custommm
     inputs:
       command: custom
       verbose: false
